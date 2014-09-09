@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mir Wasi Ahmed</title>
+    <description>I program for fun (and profit).</description>
+    <link>mirwasi.com</link>
+    <atom:link href="mirwasi.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Hello World!</title>
+        <description>&lt;p&gt;Stay tuned!&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 03 Mar 2014 00:00:00 +0600</pubDate>
+        <link>mirwasi.com/Hello-World/</link>
+        <guid isPermaLink="true">mirwasi.com/Hello-World/</guid>
+      </item>
+    
+  </channel>
+</rss>
