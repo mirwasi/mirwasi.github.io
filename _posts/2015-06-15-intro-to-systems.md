@@ -32,7 +32,7 @@ More complexity:
 - easier to **break**.
 
 
-The <a href="https://en.wikipedia.org/wiki/Worse_is_better#The_MIT_approach">MIT approach</a> leads to more complex designs, since it puts the least priority on.
+The <a href="https://en.wikipedia.org/wiki/Worse_is_better#The_MIT_approach">MIT approach</a> leads to more complex designs, since it puts the least priority on simplicity.
 
 ###Problems created by complexity:###
 
