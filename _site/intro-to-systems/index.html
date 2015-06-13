@@ -6,7 +6,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-    <title>Mir Wasi Ahmed – I program for fun (and profit).</title>
+    <title>Introduction to Systems [Lecture 1 - MIT 6.033] – Mir Wasi Ahmed – I program for fun (and profit).</title>
 
     <meta name="author" content="Mir Wasi Ahmed" />
     <meta name="description" content="I program for fun (and profit).">
@@ -41,32 +41,121 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <div class="posts">
-  
-    <article class="post">    
-      
-      <h1><a href="/intro-to-systems/">Introduction to Systems [Lecture 1 - MIT 6.033]</a></h1>
+      <article class="post">
+  <h1>Introduction to Systems [Lecture 1 - MIT 6.033]</h1>
 
-      <div class="entry">
-        <h3 id="what-is-a-system">What is a system?</h3> <blockquote> <p>“A set of interconnected components that has an expected behavior observed at the interface with its environment”.</p> </blockquote> <p>Complexity makes designing system very difficult.</p> <h3 id="what-does-complexity-mean-how-does-one-define-complexity">What does complexity mean? How does one define complexity?</h3>...
-      </div>
-      
-      <a href="/intro-to-systems/" class="read-more">[...]</a>
-    </article>
-  
-    <article class="post">    
-      
-      <h1><a href="/auditing-mit%206.033/">MIT 6.033 - Computer System Engineering</a></h1>
+  <div class="entry">
+    <h3 id="what-is-a-system">What is a system?</h3>
 
-      <div class="entry">
-        <p>Inspired by this <a href="http://devblog.me/systems-class.html">post</a> by Slava Kim, I’ve decided to audit MIT’s 6.033 (Computer Systems Engineering). I wanted to know more about systems, ones that are large, complex and distributed. To keep myself stick to this, I’ve decided to...
-      </div>
-      
-      <a href="/auditing-mit%206.033/" class="read-more">[...]</a>
-    </article>
-  
-</div>
+<blockquote>
+  <p>“A set of interconnected components that has an expected behavior observed at the interface with its environment”.</p>
+</blockquote>
 
+<p>Complexity makes designing system very difficult.</p>
+
+<h3 id="what-does-complexity-mean-how-does-one-define-complexity">What does complexity mean? How does one define complexity?</h3>
+
+<p>A complex system has got:</p>
+
+<ul>
+  <li><strong>large number</strong> of components and connections.</li>
+  <li><strong>irregular</strong> design.</li>
+  <li>a design that is <strong>difficult to describe</strong>.</li>
+  <li>a design that takes <strong>a lot of people</strong> to maintain.</li>
+</ul>
+
+<p>One metric to measure the complexity of a system is the <em>number of lines of code</em>. It’s not the best metric, but gives a rough estimation. (Facebook’s front end alone has 62-million lines of code!)</p>
+
+<p><strong>The more the lines of code, the more complex the system it creates.</strong></p>
+
+<p>More complexity:</p>
+
+<ul>
+  <li><strong>limits</strong> what we can build.</li>
+  <li>more <strong>expensive</strong>.</li>
+  <li><strong>harder</strong> to maintain.</li>
+  <li>easier to <strong>break</strong>.</li>
+</ul>
+
+<p>The <a href="https://en.wikipedia.org/wiki/Worse_is_better#The_MIT_approach">MIT approach</a> leads to more complex designs, since it puts the least priority on.</p>
+
+<h3 id="problems-created-by-complexity">Problems created by complexity:</h3>
+
+<ul>
+  <li>
+    <p><strong>New properties</strong> emerges when components are <strong>joined together</strong>:
+These properties are not evident when components are seen as individuals. When components are glued together to build a system, newer properties emerges.</p>
+  </li>
+  <li>
+    <p>Small designs <strong>don’t work very well at scale</strong>.</p>
+  </li>
+  <li>
+    <p><strong>Small changes</strong> to to system lead to surprisingly <strong>large after effects</strong>.</p>
+  </li>
+</ul>
+
+<h3 id="mitigation-of-complexity-modularity-and-abstraction">Mitigation of complexity: Modularity and abstraction!</h3>
+
+<p>Modular systems are divided into <strong>components, or modules</strong>, such that we can
+consider the implementation and interfaces of these modules
+<strong>separately</strong>.</p>
+
+<p><em>Example</em>: We don’t need to know how a transistor works in order to program, or how assembly language works to use Java, or how Java works to use a word processor implemented in it.</p>
+
+<p>Modular systems are:</p>
+
+<ul>
+  <li><strong>easier</strong> to reason about, change/improve and manage.</li>
+  <li>modules <strong>fail independently</strong>.</li>
+</ul>
+
+<h3 id="common-modularityabstraction-techniques">Common modularity/abstraction techniques:</h3>
+
+<ol>
+  <li>
+    <p><strong>Layering</strong>:</p>
+
+    <p><em>Example</em>: network protocols. Any layer can be built/modified without caring about the others.</p>
+  </li>
+  <li>
+    <p><strong>Hierarchy</strong>:</p>
+
+    <p><em>Example</em>: routing.</p>
+  </li>
+</ol>
+
+<h2 id="types-of-modularity">Types of modularity:</h2>
+
+<ol>
+  <li>
+    <p><strong>Soft modularity:</strong>  A type of modularity where the modules have to <strong>follow a contract</strong> that has a set of rules in which the modules are <strong>not suppose to violate</strong>.</p>
+
+    <p><em>Example:</em> Modularization by functions. Functions must be implemented/used in the stated way. Otherwise, bad things can happedn.</p>
+  </li>
+  <li>
+    <p><strong>Enforced modularity:</strong> A type of modularity where the modules are <strong>prevented from violating the rules</strong> by <strong>implementing self-protecting codes</strong> that protect a module’s integrity.</p>
+
+    <p><em>Example:</em> Client/Server modularity, virtualization.</p>
+  </li>
+</ol>
+
+<h2 id="conclusion">Conclusion</h2>
+<ul>
+  <li>The <strong>bigger</strong> the system gets, the <strong>more complex</strong> it becomes.</li>
+  <li>Modularity and abstraction can <strong>reduce the complexity</strong> of a system.</li>
+  <li>Getting <strong>correct</strong> modularity/abstraction is a <strong>challenge</strong>.</li>
+  <li>Modularity <strong>should be enforced</strong>.</li>
+</ul>
+
+
+  </div>
+
+  <div class="date">
+    Written on June 15, 2015
+  </div>
+
+  
+</article>
     </div>
 
     <div class="wrapper-footer">

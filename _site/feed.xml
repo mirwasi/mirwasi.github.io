@@ -7,14 +7,124 @@
     <atom:link href="mirwasi.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Introduction to Systems [Lecture 1 - MIT 6.033]</title>
+        <description>&lt;h3 id=&quot;what-is-a-system&quot;&gt;What is a system?&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A set of interconnected components that has an expected behavior observed at the interface with its environment”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Complexity makes designing system very difficult.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-does-complexity-mean-how-does-one-define-complexity&quot;&gt;What does complexity mean? How does one define complexity?&lt;/h3&gt;
+
+&lt;p&gt;A complex system has got:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;large number&lt;/strong&gt; of components and connections.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;irregular&lt;/strong&gt; design.&lt;/li&gt;
+  &lt;li&gt;a design that is &lt;strong&gt;difficult to describe&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;a design that takes &lt;strong&gt;a lot of people&lt;/strong&gt; to maintain.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One metric to measure the complexity of a system is the &lt;em&gt;number of lines of code&lt;/em&gt;. It’s not the best metric, but gives a rough estimation. (Facebook’s front end alone has 62-million lines of code!)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The more the lines of code, the more complex the system it creates.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;More complexity:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;limits&lt;/strong&gt; what we can build.&lt;/li&gt;
+  &lt;li&gt;more &lt;strong&gt;expensive&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;harder&lt;/strong&gt; to maintain.&lt;/li&gt;
+  &lt;li&gt;easier to &lt;strong&gt;break&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Worse_is_better#The_MIT_approach&quot;&gt;MIT approach&lt;/a&gt; leads to more complex designs, since it puts the least priority on.&lt;/p&gt;
+
+&lt;h3 id=&quot;problems-created-by-complexity&quot;&gt;Problems created by complexity:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;New properties&lt;/strong&gt; emerges when components are &lt;strong&gt;joined together&lt;/strong&gt;:
+These properties are not evident when components are seen as individuals. When components are glued together to build a system, newer properties emerges.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Small designs &lt;strong&gt;don’t work very well at scale&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Small changes&lt;/strong&gt; to to system lead to surprisingly &lt;strong&gt;large after effects&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;mitigation-of-complexity-modularity-and-abstraction&quot;&gt;Mitigation of complexity: Modularity and abstraction!&lt;/h3&gt;
+
+&lt;p&gt;Modular systems are divided into &lt;strong&gt;components, or modules&lt;/strong&gt;, such that we can
+consider the implementation and interfaces of these modules
+&lt;strong&gt;separately&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Example&lt;/em&gt;: We don’t need to know how a transistor works in order to program, or how assembly language works to use Java, or how Java works to use a word processor implemented in it.&lt;/p&gt;
+
+&lt;p&gt;Modular systems are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;easier&lt;/strong&gt; to reason about, change/improve and manage.&lt;/li&gt;
+  &lt;li&gt;modules &lt;strong&gt;fail independently&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;common-modularityabstraction-techniques&quot;&gt;Common modularity/abstraction techniques:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Layering&lt;/strong&gt;:&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;Example&lt;/em&gt;: network protocols. Any layer can be built/modified without caring about the others.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Hierarchy&lt;/strong&gt;:&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;Example&lt;/em&gt;: routing.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;types-of-modularity&quot;&gt;Types of modularity:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Soft modularity:&lt;/strong&gt;  A type of modularity where the modules have to &lt;strong&gt;follow a contract&lt;/strong&gt; that has a set of rules in which the modules are &lt;strong&gt;not suppose to violate&lt;/strong&gt;.&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;Example:&lt;/em&gt; Modularization by functions. Functions must be implemented/used in the stated way. Otherwise, bad things can happedn.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Enforced modularity:&lt;/strong&gt; A type of modularity where the modules are &lt;strong&gt;prevented from violating the rules&lt;/strong&gt; by &lt;strong&gt;implementing self-protecting codes&lt;/strong&gt; that protect a module’s integrity.&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;Example:&lt;/em&gt; Client/Server modularity, virtualization.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;The &lt;strong&gt;bigger&lt;/strong&gt; the system gets, the &lt;strong&gt;more complex&lt;/strong&gt; it becomes.&lt;/li&gt;
+  &lt;li&gt;Modularity and abstraction can &lt;strong&gt;reduce the complexity&lt;/strong&gt; of a system.&lt;/li&gt;
+  &lt;li&gt;Getting &lt;strong&gt;correct&lt;/strong&gt; modularity/abstraction is a &lt;strong&gt;challenge&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Modularity &lt;strong&gt;should be enforced&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 15 Jun 2015 00:00:00 +0600</pubDate>
+        <link>mirwasi.com/intro-to-systems/</link>
+        <guid isPermaLink="true">mirwasi.com/intro-to-systems/</guid>
+      </item>
+    
+      <item>
         <title>MIT 6.033 - Computer System Engineering</title>
         <description>&lt;p&gt;Inspired by this &lt;a href=&quot;http://devblog.me/systems-class.html&quot;&gt;post&lt;/a&gt; by Slava Kim, I’ve decided to audit MIT’s 6.033 (Computer Systems Engineering). I wanted to know more about systems, ones that are large, complex and distributed. To keep myself stick to this, I’ve decided to write a blog post on every class. I’m going to follow the class schedule of &lt;a href=&quot;http://web.mit.edu/6.033/www/schedule.shtml&quot;&gt;Spring 2015&lt;/a&gt; session.&lt;/p&gt;
 
 &lt;p&gt;Why blog posts on classes? Well, to make sure I understand everything correctly. I’m going to write down the basic ideas as clearly as I can.&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Jun 2015 00:00:00 +0600</pubDate>
-        <link>mirwasi.com/Auditing%20MIT%206.033/</link>
-        <guid isPermaLink="true">mirwasi.com/Auditing%20MIT%206.033/</guid>
+        <link>mirwasi.com/auditing-mit%206.033/</link>
+        <guid isPermaLink="true">mirwasi.com/auditing-mit%206.033/</guid>
       </item>
     
   </channel>
