@@ -7,13 +7,14 @@
     <atom:link href="mirwasi.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Hello World!</title>
-        <description>&lt;p&gt;Stay tuned!&lt;/p&gt;
+        <title>MIT 6.033 - Computer System Engineering</title>
+        <description>&lt;p&gt;Inspired by this &lt;a href=&quot;http://devblog.me/systems-class.html&quot;&gt;post&lt;/a&gt; by Slava Kim, I’ve decided to audit MIT’s 6.033 (Computer Systems Engineering). I wanted to know more about systems, ones that are large, complex and distributed. To keep myself stick to this, I’ve decided to write a blog post on every class. I’m going to follow the class schedule of &lt;a href=&quot;http://web.mit.edu/6.033/www/schedule.shtml&quot;&gt;Spring 2015&lt;/a&gt; session.&lt;/p&gt;
 
+&lt;p&gt;Why blog posts on classes? Well, to make sure I understand everything correctly. I’m going to write down the basic ideas as clearly as I can.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 03 Mar 2014 00:00:00 +0600</pubDate>
-        <link>mirwasi.com/Hello-World/</link>
-        <guid isPermaLink="true">mirwasi.com/Hello-World/</guid>
+        <pubDate>Mon, 15 Jun 2015 00:00:00 +0600</pubDate>
+        <link>mirwasi.com/Auditing%20MIT%206.033/</link>
+        <guid isPermaLink="true">mirwasi.com/Auditing%20MIT%206.033/</guid>
       </item>
     
   </channel>
