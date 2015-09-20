@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a self-taught Software Engineer living in Dhaka, Bangladesh. I'm an ardent lover of Computer Science despite being graduated as a Civil Engineer.
+I am a self-taught Software Engineer living in the beautiful city of Haarlem, in Netherlands. I'm originally from Bangladesh. I'm an ardent lover of Computer Science despite being graduated as a Civil Engineer.
 
 
 ### More Information
