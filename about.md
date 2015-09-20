@@ -16,4 +16,4 @@ I am a self-taught Software Engineer living in Dhaka, Bangladesh. I'm an ardent 
 
 ### Contact me
 
-[ping@mirwasi.com](mailto:ping@mirwasi.com)
+[mail@wasiahmed.me](mailto:mail@wasiahmed.me)
