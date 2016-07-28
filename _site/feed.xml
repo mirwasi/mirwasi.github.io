@@ -42,7 +42,7 @@
 
 &lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Worse_is_better#The_MIT_approach&quot;&gt;MIT approach&lt;/a&gt; leads to more complex designs, since it puts the least priority on simplicity.&lt;/p&gt;
 
-&lt;h3 id=&quot;problems-created-by-complexity&quot;&gt;Problems created by complexity:&lt;/h3&gt;
+&lt;p&gt;###Problems created by complexity:###&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -123,8 +123,8 @@ consider the implementation and interfaces of these modules
 &lt;p&gt;Why blog posts on classes? Well, to make sure I understand everything correctly. I’m going to write down the basic ideas as clearly as I can.&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Jun 2015 00:00:00 +0200</pubDate>
-        <link>mirwasi.com/auditing-mit%206.033/</link>
-        <guid isPermaLink="true">mirwasi.com/auditing-mit%206.033/</guid>
+        <link>mirwasi.com/auditing-mit-6.033/</link>
+        <guid isPermaLink="true">mirwasi.com/auditing-mit-6.033/</guid>
       </item>
     
   </channel>
