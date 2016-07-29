@@ -7,7 +7,7 @@
     <atom:link href="mirwasi.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>On System And Network Performance</title>
+        <title>On system and network performance</title>
         <description>&lt;p&gt;I’ve been really interested in system’s performance these days and my material for the next free slot of available time would be these:&lt;/p&gt;
 
 &lt;h3 id=&quot;brendan-gregg-on-various-performance-analysis-tools&quot;&gt;Brendan Gregg on various performance analysis tools&lt;/h3&gt;
@@ -16,9 +16,9 @@
 
 &lt;p&gt;A couple of highly recommended videos:&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;420&quot; allowfullscreen=&quot;allowfullscreen&quot; src=&quot;http://www.youtube.com/embed/FJW8nGV4jxY?color=white&amp;amp;theme=light&quot;&gt; &lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/FJW8nGV4jxY&quot;&gt;&lt;/iframe&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;420&quot; allowfullscreen=&quot;allowfullscreen&quot; src=&quot;http://www.youtube.com/embed/zrr2nUln9Kk?color=white&amp;amp;theme=light&quot;&gt; &lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/zrr2nUln9Kk&quot;&gt;&lt;/iframe&gt;
 
 &lt;h3 id=&quot;high-performance-browser-networking&quot;&gt;High Performance Browser Networking&lt;/h3&gt;
 
