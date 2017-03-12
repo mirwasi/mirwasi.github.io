@@ -3,8 +3,8 @@
   <channel>
     <title>Mir Wasi Ahmed</title>
     <description>I program for fun (and profit).</description>
-    <link>mirwasi.com</link>
-    <atom:link href="mirwasi.com/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>On system and network performance</title>
@@ -12,7 +12,7 @@
 
 &lt;h3 id=&quot;brendan-gregg-on-various-performance-analysis-tools&quot;&gt;Brendan Gregg on various performance analysis tools&lt;/h3&gt;
 
-&lt;p&gt;I’ve used a little bit of &lt;a href=&quot;https://github.com/mbarbon/devel-statprofiler&quot;&gt;Statprofiler&lt;/a&gt; at my workplace to gauge the performance of some Perl code. I liked those flame graphs, and digging a bit, I came across this amazing guy called &lt;a href=&quot;www.brendangregg.com&quot;&gt;Brendan Gregg&lt;/a&gt; from Netflix. He is a well known performance expert.&lt;/p&gt;
+&lt;p&gt;I’ve used a little bit of &lt;a href=&quot;https://github.com/mbarbon/devel-statprofiler&quot;&gt;statprofiler&lt;/a&gt; at my workplace to gauge the performance of some Perl code. I liked those flame graphs, and digging a bit, I came across this amazing guy called &lt;a href=&quot;www.brendangregg.com&quot;&gt;Brendan Gregg&lt;/a&gt; from Netflix. He is a well known performance expert.&lt;/p&gt;
 
 &lt;p&gt;A couple of highly recommended videos:&lt;/p&gt;
 
@@ -25,8 +25,8 @@
 &lt;p&gt;I also came across this nice free online book called &lt;a href=&quot;https://hpbn.co/&quot;&gt;High Performance Browser Networking&lt;/a&gt; by Ilya Grigorik on reddit. I hope to finish the entire book someday in near future. This book starts from very basic things like TCP and UDP to HTTP/2. The good thing about this book seems the performance optimization tips given at the end of each chapter.&lt;/p&gt;
 </description>
         <pubDate>Fri, 29 Jul 2016 00:00:00 +0200</pubDate>
-        <link>mirwasi.com/on-system-and-network-performance/</link>
-        <guid isPermaLink="true">mirwasi.com/on-system-and-network-performance/</guid>
+        <link>http://localhost:4000/on-system-and-network-performance/</link>
+        <guid isPermaLink="true">http://localhost:4000/on-system-and-network-performance/</guid>
       </item>
     
   </channel>
