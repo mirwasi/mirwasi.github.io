@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mir Wasi Ahmed</title>
+    <title></title>
     <link>https://mirwasi.co.uk/</link>
-    <description>Recent content on Mir Wasi Ahmed</description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Dec 2019 01:51:38 +0000</lastBuildDate>
@@ -12,12 +12,22 @@
     
     
     <item>
-      <title>My First Post</title>
-      <link>https://mirwasi.co.uk/posts/my-first-post/</link>
+      <title>About</title>
+      <link>https://mirwasi.co.uk/about/</link>
       <pubDate>Sun, 01 Dec 2019 01:51:38 +0000</pubDate>
       
-      <guid>https://mirwasi.co.uk/posts/my-first-post/</guid>
-      <description>Muito obrigado! Muchos gracias!</description>
+      <guid>https://mirwasi.co.uk/about/</guid>
+      <description>I am a self-taught Software Engineer living in London, one of the great world cities. I work at Amazon (opinions expressed in this blog are entirely my own).
+Travelled around Europe: 🇩🇪🇵🇱🇺🇸🇳🇱🇧🇪🇩🇰🇵🇹🇭🇷🇹🇭🇨🇿 🇳🇴🇬🇧🇮🇹🇪🇸🇬🇷🇲🇽🇸🇪🇫🇮</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://mirwasi.co.uk/first-post/</link>
+      <pubDate>Sun, 01 Dec 2019 01:51:38 +0000</pubDate>
+      
+      <guid>https://mirwasi.co.uk/first-post/</guid>
+      <description>De nada!</description>
     </item>
     
   </channel>
