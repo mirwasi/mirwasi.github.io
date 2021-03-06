@@ -9,4 +9,4 @@ Outside of work, I have a wide range of interests: including things like linguis
 
 All the opinions I make here are my own. I do not represent my current and previous employers.
 
-If you want to reach out to me, send me a DM on twitter.
+If you want to reach out to me, send me a [DM](https://twitter.com/wasiahmed) on twitter.
