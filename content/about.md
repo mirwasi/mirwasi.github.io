@@ -1,8 +1,6 @@
 +++
 title = "About"
 description = "Mir Wasi Ahmed"
-date = "2019-02-28"
-aliases = ["about"]
 +++
 
 Hi, my name is Wasi and I am a *Software Engineer* based in London.
