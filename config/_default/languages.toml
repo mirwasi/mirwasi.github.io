@@ -5,8 +5,3 @@
   # contentDir = "content/en"
 
 # Uncomment for multilingual sites, and customize the following config.
-[bn]
-   languageCode = "bn"
-   languageName = "বাংলা"
-   contentDir = "content/bn"
-   title = "বাংলা"
