@@ -1,0 +1,10 @@
+
+.toc nav ul li {
+    list-style-type: square;
+    margin-bottom: 0;
+};
+
+
+.toc nav ul li::after {
+    margin-bottom: 10px;
+};
