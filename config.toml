@@ -34,7 +34,7 @@ googleAnalytics = "UA-153851003-1"
 	pagetitle = "Mir Wasi Ahmed"
 
 	# Add a subtitle to your website
-	subtitle = "Software Engineer based in London"
+	subtitle = "Software Engineer based in London, with a wide range of interests"
 
 	# Activate to show authors on pages if available
 	#listAuthor = false
@@ -93,18 +93,18 @@ weight = 2
 [[menu.main]]
 name = "About"
 url = "/about"
-weight = 3
+weight = 4
 
 
 [[menu.main]]
 name = "Links"
 url = "/links"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 5
+weight = 6
 
 
 # Social Menu
