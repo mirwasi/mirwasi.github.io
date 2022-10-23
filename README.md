@@ -8,5 +8,4 @@
 3. Clone the git repository
     > git clone git@github.com:mirwasi/mirwasi.github.io.git
 4. Setup theme submodules:
-    > git submodule init
-    > git submodule update
+    > git submodule init && git submodule update
