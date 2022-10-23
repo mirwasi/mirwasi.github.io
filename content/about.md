@@ -3,7 +3,7 @@ title = "About"
 description = "Mir Wasi Ahmed"
 +++
 
-Hi, my name is Wasi and I am a *Software Engineer* based in London.
+Hi, my name is Wasi and I am a *Software Engineer* based in Barking, a small town inside Greater London.
 
 Outside of work, I have a wide range of interests: including things like linguistics and geography. 
 
