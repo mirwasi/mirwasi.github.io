@@ -9,3 +9,9 @@
     > git clone git@github.com:mirwasi/mirwasi.github.io.git
 4. Setup theme submodules:
     > git submodule init && git submodule update
+
+# How to run
+
+```
+hugo serve
+```
