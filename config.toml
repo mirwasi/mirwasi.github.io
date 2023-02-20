@@ -63,12 +63,12 @@ googleAnalytics = "UA-153851003-1"
 # Comments
 [params.comments]
 # Enable Comments with "true"
-enabled = true
+enabled = false
 
 # Comment provider:
 #   disqus (https://disqus.com)
 #   commento (https://commento.io)
-engine = "disqus"
+engine = ""
 
 # Content types to disable comments on.
 #disableOnTypes = ["page"]
