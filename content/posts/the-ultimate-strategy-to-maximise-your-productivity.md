@@ -1,6 +1,7 @@
 ---
-title: "Ultimate Strategy to Maximise Your Productivity"
+title: "The Ultimate Strategy to Maximise Your Productivity"
 date: 2023-02-20
+tags: [ 'productivity', 'pareto', 'focus', 'carlsons law', 'illichs law' ]
 ---
 ### Prioritize tasks
 
