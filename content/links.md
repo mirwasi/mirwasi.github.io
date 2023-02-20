@@ -6,7 +6,6 @@ markup = "goldmark"
 
 I'll try keeping a list of links to websites/pages that I find interesting on this page.
 
-{{< toc >}}
 
 # Tech
 

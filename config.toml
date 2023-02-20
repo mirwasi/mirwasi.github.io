@@ -7,7 +7,7 @@ theme = "hugo-vitae"
 paginate = 5
 enableRobotsTXT = true
 
-copyright = "© 2022 - Mir Wasi Ahmed"
+copyright = "© 2023 - Mir Wasi Ahmed"
 
 pygmentsstyle = "colorful"
 pygmentscodefences = true
@@ -25,7 +25,7 @@ googleAnalytics = "UA-153851003-1"
 	homepage = false
 
 	# Add meta keywords in head part (Site Keywords or Tags of Page)
-	keywords = ["tech","programming","software engineering","london", "uk"]
+	keywords = ["tech","programming","software engineering","london", "uk", "productivity"]
 
 	# Add meta description in head part
 	description = "Mir Wasi Ahmed - Software Engineer based in London"
@@ -86,7 +86,7 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All Posts"
+name = "Posts"
 url = "/posts"
 weight = 2
 
