@@ -2,6 +2,7 @@
 title: "The Ultimate Strategy to Maximise Your Productivity"
 date: 2023-02-20
 tags: [ 'productivity', 'pareto', 'focus', 'carlsons law', 'illichs law' ]
+draft: true
 ---
 ### Prioritize tasks
 
@@ -26,3 +27,4 @@ Use Illich's Law to **_estimate the time each task will take as accurately as po
 ### Use rewards to motivate yourself
 
 Use the Law of Reward to **_motivate yourself and reinforce good time management habits_**. Reward yourself for completing tasks on time, and use the satisfaction of completing tasks efficiently as a motivator.
+
