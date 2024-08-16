@@ -7,7 +7,7 @@ theme = "hugo-vitae"
 paginate = 5
 enableRobotsTXT = true
 
-copyright = "© 2023 - Mir Wasi Ahmed"
+copyright = "© 2023 - 2024, Mir Wasi Ahmed"
 
 pygmentsstyle = "colorful"
 pygmentscodefences = true
